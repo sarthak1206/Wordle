@@ -103,9 +103,15 @@ public class MainActivity extends AppCompatActivity {
 
         DataBaseHelper myDB = new DataBaseHelper(this);
 
+        TextView Level = dialog.findViewById(R.id.txtlvl);
+
         int truth = myDB.checkName("TRUTH").getCount();
         int falsed = myDB.checkName("FALSER").getCount();
-        int win = (truth*100)/(truth+falsed);
+        int win;
+        if(truth+falsed!=0)
+            win = (truth*100)/(truth+falsed);
+        else
+            win = (truth*100);
         int arr[] = new int[6];
         arr[0] = myDB.checkName("ONE_TRY").getCount();
         arr[1] = myDB.checkName("TWO_TRY").getCount();
@@ -113,6 +119,9 @@ public class MainActivity extends AppCompatActivity {
         arr[3] = myDB.checkName("FOUR_TRY").getCount();
         arr[4] = myDB.checkName("FIVE_TRY").getCount();
         arr[5] = myDB.checkName("SIX_TRY").getCount();
+
+        int levl = (int)Math.sqrt(truth);
+        Level.setText("Level: "+levl);
 
         Correct.setText(truth+"");
         InCorrect.setText(falsed +"");
@@ -124,6 +133,9 @@ public class MainActivity extends AppCompatActivity {
             if(arr[i]>maxi)
                 maxi = arr[i];
         }
+
+        if(maxi==0)
+            maxi= 1;
 
         ProgressBar progressBar1 = dialog.findViewById(R.id.prgrsbr1);
         progressBar1.setProgress(arr[0]*100/maxi);

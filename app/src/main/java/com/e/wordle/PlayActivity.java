@@ -116,7 +116,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et11.getText().length();
                 if (textlength1 >= 1) {
-                    Et12.requestFocus();
+                    Et12.requestFocusFromTouch();
+                    Et12.setFocusableInTouchMode(true);
                 }
             }
 
@@ -135,7 +136,9 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et12.getText().length();
                 if (textlength1 >= 1) {
-                    Et13.requestFocus();
+                    Et13.requestFocusFromTouch();
+                    Et13.setFocusableInTouchMode(true);
+
                 }
             }
 
@@ -154,8 +157,10 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et13.getText().length();
                 if (textlength1 >= 1) {
-                    Et14.requestFocus();
+                    Et14.requestFocusFromTouch();
+                    Et14.setFocusableInTouchMode(true);
                 }
+
             }
 
             @Override
@@ -173,8 +178,10 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et14.getText().length();
                 if (textlength1 >= 1) {
-                    Et15.requestFocus();
+                    Et15.requestFocusFromTouch();
+                    Et15.setFocusableInTouchMode(true);
                 }
+
             }
 
             @Override
@@ -196,7 +203,14 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 checker(context, Et11, Et12, Et13, Et14, Et15, 1);
-                Et21.requestFocus();
+                Et21.requestFocusFromTouch();
+                Et21.setFocusableInTouchMode(true);
+
+                Et11.setFocusableInTouchMode(false);
+                Et12.setFocusableInTouchMode(false);
+                Et13.setFocusableInTouchMode(false);
+                Et14.setFocusableInTouchMode(false);
+                Et15.setFocusableInTouchMode(false);
             }
         });
 
@@ -211,7 +225,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et21.getText().length();
                 if (textlength1 >= 1) {
-                    Et22.requestFocus();
+                    Et22.requestFocusFromTouch();
+                    Et22.setFocusableInTouchMode(true);
                 }
             }
 
@@ -230,7 +245,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et22.getText().length();
                 if (textlength1 >= 1) {
-                    Et23.requestFocus();
+                    Et23.requestFocusFromTouch();
+                    Et23.setFocusableInTouchMode(true);
                 }
             }
 
@@ -249,7 +265,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et23.getText().length();
                 if (textlength1 >= 1) {
-                    Et24.requestFocus();
+                    Et24.requestFocusFromTouch();
+                    Et24.setFocusableInTouchMode(true);
                 }
             }
 
@@ -268,7 +285,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et24.getText().length();
                 if (textlength1 >= 1) {
-                    Et25.requestFocus();
+                    Et25.requestFocusFromTouch();
+                    Et25.setFocusableInTouchMode(true);
                 }
             }
 
@@ -291,7 +309,14 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 checker(context, Et21, Et22, Et23, Et24, Et25, 2);
-                Et31.requestFocus();
+                Et31.requestFocusFromTouch();
+                Et31.setFocusableInTouchMode(true);
+
+                Et21.setFocusableInTouchMode(false);
+                Et22.setFocusableInTouchMode(false);
+                Et23.setFocusableInTouchMode(false);
+                Et24.setFocusableInTouchMode(false);
+                Et25.setFocusableInTouchMode(false);
             }
         });
 
@@ -306,7 +331,9 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et31.getText().length();
                 if (textlength1 >= 1) {
-                    Et32.requestFocus();
+                    Et32.requestFocusFromTouch();
+                    Et32.setFocusableInTouchMode(false);
+
                 }
             }
 
@@ -325,7 +352,9 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et32.getText().length();
                 if (textlength1 >= 1) {
-                    Et33.requestFocus();
+                    Et33.requestFocusFromTouch();
+
+                    Et33.setFocusableInTouchMode(false);
                 }
             }
 
@@ -344,7 +373,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et33.getText().length();
                 if (textlength1 >= 1) {
-                    Et34.requestFocus();
+                    Et34.requestFocusFromTouch();
+                    Et34.setFocusableInTouchMode(false);
                 }
             }
 
@@ -363,7 +393,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et34.getText().length();
                 if (textlength1 >= 1) {
-                    Et35.requestFocus();
+                    Et35.requestFocusFromTouch();
+                    Et35.setFocusableInTouchMode(false);
                 }
             }
 
@@ -386,7 +417,14 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 checker(context, Et31, Et32, Et33, Et34, Et35, 3);
-                Et41.requestFocus();
+                Et41.requestFocusFromTouch();
+                Et41.setFocusableInTouchMode(true);
+
+                Et31.setFocusableInTouchMode(false);
+                Et32.setFocusableInTouchMode(false);
+                Et33.setFocusableInTouchMode(false);
+                Et34.setFocusableInTouchMode(false);
+                Et35.setFocusableInTouchMode(false);
             }
         });
 
@@ -401,7 +439,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et41.getText().length();
                 if (textlength1 >= 1) {
-                    Et42.requestFocus();
+                    Et42.requestFocusFromTouch();
+                    Et42.setFocusableInTouchMode(false);
                 }
             }
 
@@ -420,7 +459,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et42.getText().length();
                 if (textlength1 >= 1) {
-                    Et43.requestFocus();
+                    Et43.requestFocusFromTouch();
+                    Et43.setFocusableInTouchMode(false);
                 }
             }
 
@@ -439,7 +479,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et43.getText().length();
                 if (textlength1 >= 1) {
-                    Et44.requestFocus();
+                    Et44.requestFocusFromTouch();
+                    Et44.setFocusableInTouchMode(false);
                 }
             }
 
@@ -458,7 +499,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et44.getText().length();
                 if (textlength1 >= 1) {
-                    Et45.requestFocus();
+                    Et45.requestFocusFromTouch();
+                    Et45.setFocusableInTouchMode(false);
                 }
             }
 
@@ -481,7 +523,14 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 checker(context, Et41, Et42, Et43, Et44, Et45, 4);
-                Et51.requestFocus();
+                Et51.requestFocusFromTouch();
+                Et51.setFocusableInTouchMode(true);
+
+                Et41.setFocusableInTouchMode(false);
+                Et42.setFocusableInTouchMode(false);
+                Et43.setFocusableInTouchMode(false);
+                Et44.setFocusableInTouchMode(false);
+                Et45.setFocusableInTouchMode(false);
             }
         });
 
@@ -496,7 +545,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et51.getText().length();
                 if (textlength1 >= 1) {
-                    Et52.requestFocus();
+                    Et52.requestFocusFromTouch();
+                    Et52.setFocusableInTouchMode(false);
                 }
             }
 
@@ -515,7 +565,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et52.getText().length();
                 if (textlength1 >= 1) {
-                    Et53.requestFocus();
+                    Et53.requestFocusFromTouch();
+                    Et53.setFocusableInTouchMode(false);
                 }
             }
 
@@ -534,7 +585,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et53.getText().length();
                 if (textlength1 >= 1) {
-                    Et54.requestFocus();
+                    Et54.requestFocusFromTouch();
+                    Et54.setFocusableInTouchMode(false);
                 }
             }
 
@@ -553,7 +605,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et54.getText().length();
                 if (textlength1 >= 1) {
-                    Et55.requestFocus();
+                    Et55.requestFocusFromTouch();
+                    Et55.setFocusableInTouchMode(false);
                 }
             }
 
@@ -576,7 +629,14 @@ public class PlayActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 checker(context, Et51, Et52, Et53, Et54, Et55, 5);
-                Et61.requestFocus();
+                Et61.requestFocusFromTouch();
+                Et61.setFocusableInTouchMode(true);
+
+                Et51.setFocusableInTouchMode(false);
+                Et52.setFocusableInTouchMode(false);
+                Et53.setFocusableInTouchMode(false);
+                Et54.setFocusableInTouchMode(false);
+                Et55.setFocusableInTouchMode(false);
             }
         });
 
@@ -591,7 +651,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et61.getText().length();
                 if (textlength1 >= 1) {
-                    Et62.requestFocus();
+                    Et62.requestFocusFromTouch();
+                    Et62.setFocusableInTouchMode(false);
                 }
             }
 
@@ -610,7 +671,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et62.getText().length();
                 if (textlength1 >= 1) {
-                    Et63.requestFocus();
+                    Et63.requestFocusFromTouch();
+                    Et63.setFocusableInTouchMode(false);
                 }
             }
 
@@ -629,7 +691,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et63.getText().length();
                 if (textlength1 >= 1) {
-                    Et64.requestFocus();
+                    Et64.requestFocusFromTouch();
+                    Et64.setFocusableInTouchMode(false);
                 }
             }
 
@@ -648,7 +711,8 @@ public class PlayActivity extends AppCompatActivity {
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
                 Integer textlength1 = Et64.getText().length();
                 if (textlength1 >= 1) {
-                    Et65.requestFocus();
+                    Et65.requestFocusFromTouch();
+                    Et65.setFocusableInTouchMode(false);
                 }
             }
 
@@ -775,7 +839,7 @@ public class PlayActivity extends AppCompatActivity {
             {
                 DataBaseHelper myDB = new DataBaseHelper(this);
                 boolean insertData = myDB.insert(7, false);
-
+                Toast.makeText(getApplicationContext(), "The word was: "+name, Toast.LENGTH_SHORT).show();
                 showLoseDialog();
 
             }
