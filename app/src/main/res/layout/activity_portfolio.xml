@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#f1f1f1">
+
+    <ImageButton
+        android:id="@+id/quit_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:background="@drawable/quiticon"
+        />
+
+    <ImageView
+        android:id="@+id/logo_company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Developed By: Sarthak"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textSize="35dp"
+        android:layout_marginBottom="115dp"
+        />
+
+    <TextView
+        android:id="@+id/hyperlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:text="@string/portfolio_link"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/info_visit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@drawable/gradient_button"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:text="@string/visit_info"
+        />
+
+</LinearLayout>

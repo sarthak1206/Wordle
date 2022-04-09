@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Wordle</string>
+    <string name="portfolio_link">Get more into my world by visiting my website for incredible projects. Don\'t forget to rate it as your feedback really matters. Thank You!!!</string>
+    <string name="visit_info"> More Projects</string>
+    <string name="description">Wordle is a word-guessing game. The objective of the game is to guess a 5-letter word in
+        6 tries. In the original version, you can play only 1 wordle a day which is available on NY Times.
+        But, on our application, you will be able to play as many Wordles as you want!<br><br></br></br>
+
+
+    Each guess must be a valid five-letter word. Hit the enter button to submit.<br><br></br></br>
+
+    After each guess, the color of the tiles will change to show how close your guess was to the word.<br><br></br></br><br></br>
+
+        Examples:<br></br>
+
+    </string>
+    <string name="filename">words.txt</string>
+</resources>
