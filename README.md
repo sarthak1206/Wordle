@@ -34,6 +34,6 @@ https://drive.google.com/file/d/1gksx_cOigCYzPTlNAINfFe8-C_RiSzSj/view?usp=shari
 
 9) On clicking on exit you can check our portfolio as below and the game will be closed.
 
-<img src="app/src/main/res/drawable-v24/1649569681041.jpg" height="640" width="330"/>
+<img src="app/src/main/res/drawable-v24/1649569681041.jpg" height="426" width="240"/>
 
 
