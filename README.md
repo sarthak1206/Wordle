@@ -28,9 +28,11 @@ https://drive.google.com/file/d/1gksx_cOigCYzPTlNAINfFe8-C_RiSzSj/view?usp=shari
 
 7) After playing the game, you will be redirected to the menu page and on clicking view score button you will see the page as follows:
 
+<img src="app/src/main/res/drawable-v24/1649569681055.jpg" height="426" width="240"/>
 
 8) You can even check how to play button.
 
+<img src="app/src/main/res/drawable-v24/1649569681045.jpg" height="426" width="240"/>
 
 9) On clicking on exit you can check our portfolio as below and the game will be closed.
 
