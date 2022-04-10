@@ -11,7 +11,7 @@ https://drive.google.com/file/d/1gksx_cOigCYzPTlNAINfFe8-C_RiSzSj/view?usp=shari
 1) Install the apk from the above link and open it, you will see the below screen :
 
 <img src="app/src/main/res/drawable-v24/1649569681092.jpg" height="426" width="240"/>
-
+<br>
 2) After a break of 2 seconds, you will be redirected to the menu page of the game where you can find the play button, view score button, about us and exit as follows:
 
 <img src="app/src/main/res/drawable-v24/1649569681087.jpg" height="426" width="240"/>
