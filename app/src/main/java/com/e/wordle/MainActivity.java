@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,6 +30,20 @@ public class MainActivity extends AppCompatActivity {
         gen = new Generator(getApplicationContext());
 
 
+        // Controlling Share Button
+        ImageButton Share = (ImageButton) findViewById(R.id.share);
+
+        Share.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(android.view.View view) {
+                Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+                sharingIntent.setType("text/plain");
+                String shareBody = "Please share it with your friends and family.";
+                sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Install Wordle now and brainstorm!!!");
+                sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+                startActivity(Intent.createChooser(sharingIntent, "Share via"));
+            }
+        });
 
         Play = (Button) findViewById(R.id.btn4);
         View = (Button) findViewById(R.id.btn1);

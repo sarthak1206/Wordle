@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class PlayActivity extends AppCompatActivity {
@@ -114,15 +115,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et11.getText().length();
                 if (textlength1 >= 1) {
                     Et12.requestFocusFromTouch();
                     Et12.setFocusableInTouchMode(true);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -134,16 +136,17 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et12.getText().length();
                 if (textlength1 >= 1) {
                     Et13.requestFocusFromTouch();
                     Et13.setFocusableInTouchMode(true);
 
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -155,16 +158,17 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Integer textlength1 = Et13.getText().length();
-                if (textlength1 >= 1) {
-                    Et14.requestFocusFromTouch();
-                    Et14.setFocusableInTouchMode(true);
-                }
+
 
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
+                Integer textlength1 = Et13.getText().length();
+                if (textlength1 >= 1) {
+                    Et14.requestFocusFromTouch();
+                    Et14.setFocusableInTouchMode(true);
+                }
             }
         });
 
@@ -176,16 +180,17 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                Integer textlength1 = Et14.getText().length();
-                if (textlength1 >= 1) {
-                    Et15.requestFocusFromTouch();
-                    Et15.setFocusableInTouchMode(true);
-                }
+
 
             }
 
             @Override
             public void afterTextChanged(Editable editable) {
+                Integer textlength1 = Et14.getText().length();
+                if (textlength1 >= 1) {
+                    Et15.requestFocusFromTouch();
+                    Et15.setFocusableInTouchMode(true);
+                }
             }
         });
 
@@ -223,15 +228,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et21.getText().length();
                 if (textlength1 >= 1) {
                     Et22.requestFocusFromTouch();
                     Et22.setFocusableInTouchMode(true);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -243,15 +249,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et22.getText().length();
                 if (textlength1 >= 1) {
                     Et23.requestFocusFromTouch();
                     Et23.setFocusableInTouchMode(true);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -263,15 +270,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et23.getText().length();
                 if (textlength1 >= 1) {
                     Et24.requestFocusFromTouch();
                     Et24.setFocusableInTouchMode(true);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -283,15 +291,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et24.getText().length();
                 if (textlength1 >= 1) {
                     Et25.requestFocusFromTouch();
                     Et25.setFocusableInTouchMode(true);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -329,16 +338,17 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et31.getText().length();
                 if (textlength1 >= 1) {
                     Et32.requestFocusFromTouch();
                     Et32.setFocusableInTouchMode(false);
 
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -350,16 +360,17 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et32.getText().length();
                 if (textlength1 >= 1) {
                     Et33.requestFocusFromTouch();
 
                     Et33.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -371,15 +382,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et33.getText().length();
                 if (textlength1 >= 1) {
                     Et34.requestFocusFromTouch();
                     Et34.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -391,15 +403,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et34.getText().length();
                 if (textlength1 >= 1) {
                     Et35.requestFocusFromTouch();
                     Et35.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -437,15 +450,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et41.getText().length();
                 if (textlength1 >= 1) {
                     Et42.requestFocusFromTouch();
                     Et42.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -457,15 +471,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et42.getText().length();
                 if (textlength1 >= 1) {
                     Et43.requestFocusFromTouch();
                     Et43.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -477,15 +492,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et43.getText().length();
                 if (textlength1 >= 1) {
                     Et44.requestFocusFromTouch();
                     Et44.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -497,15 +513,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et44.getText().length();
                 if (textlength1 >= 1) {
                     Et45.requestFocusFromTouch();
                     Et45.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -543,15 +560,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et51.getText().length();
                 if (textlength1 >= 1) {
                     Et52.requestFocusFromTouch();
                     Et52.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -563,15 +581,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et52.getText().length();
                 if (textlength1 >= 1) {
                     Et53.requestFocusFromTouch();
                     Et53.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -583,15 +602,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et53.getText().length();
                 if (textlength1 >= 1) {
                     Et54.requestFocusFromTouch();
                     Et54.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -603,15 +623,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et54.getText().length();
                 if (textlength1 >= 1) {
                     Et55.requestFocusFromTouch();
                     Et55.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -649,15 +670,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et61.getText().length();
                 if (textlength1 >= 1) {
                     Et62.requestFocusFromTouch();
                     Et62.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -669,15 +691,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et62.getText().length();
                 if (textlength1 >= 1) {
                     Et63.requestFocusFromTouch();
                     Et63.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -689,15 +712,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et63.getText().length();
                 if (textlength1 >= 1) {
                     Et64.requestFocusFromTouch();
                     Et64.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -709,15 +733,16 @@ public class PlayActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable editable) {
                 Integer textlength1 = Et64.getText().length();
                 if (textlength1 >= 1) {
                     Et65.requestFocusFromTouch();
                     Et65.setFocusableInTouchMode(false);
                 }
-            }
-
-            @Override
-            public void afterTextChanged(Editable editable) {
             }
         });
 
@@ -839,7 +864,7 @@ public class PlayActivity extends AppCompatActivity {
             {
                 DataBaseHelper myDB = new DataBaseHelper(this);
                 boolean insertData = myDB.insert(7, false);
-                Toast.makeText(getApplicationContext(), "The word was: "+name, Toast.LENGTH_SHORT).show();
+
                 showLoseDialog();
 
             }
@@ -853,6 +878,10 @@ public class PlayActivity extends AppCompatActivity {
         dialog.getWindow().setBackgroundDrawableResource(R.drawable.dialog_win);
         dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         dialog.setCancelable(false);
+
+        TextView Show = (TextView) dialog.findViewById(R.id.word);
+
+        Show.setText("The word was: "+name);
 
         Button Next = (Button) dialog.findViewById(R.id.next_btn);
         dialog.show();

@@ -31,19 +31,30 @@
         android:contentDescription="Game Over" />
 
 
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="The word was: "
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/main_image"
+        />
+
     <Button
         android:id="@+id/next_btn"
         android:layout_width="match_parent"
         android:layout_height="35dp"
         android:text="Proceed to Main Page"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="20dp"
         android:background="@color/purple_200"
         android:textColor="@color/white"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_image"
+        app:layout_constraintTop_toBottomOf="@+id/word"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
